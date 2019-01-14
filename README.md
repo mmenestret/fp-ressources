@@ -208,7 +208,7 @@
 
 - [J. De Goes](http://degoes.net/)
 
-- [Runar](http://blog.higher-order.com/)
+- [Runar](http://blog.higher-order.com/) [old](https://apocalisp.wordpress.com/)
 
 - [Habla](https://blog.hablapps.com/)
 
@@ -217,6 +217,18 @@
 - [Kubuszok](https://kubuszok.com/#blog)
 
 - [FP Complete](https://www.fpcomplete.com/blog)
+    - Haskell
+
+- [Edward Kmett](http://comonad.com/reader/)
+    - Haskell
+
+-  [Dan Piponi](http://blog.sigfpe.com/)
+    - Haskell
+
+- [Phil Freeman](https://blog.functorial.com/)
+    - Haskell/Purescript
+
+- [Russell O’Connor](http://r6.ca/blog/)
     - Haskell
 
 - [Mine ! :D](https://github.com/mmenestret/fp-ressources/)
