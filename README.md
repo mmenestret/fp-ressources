@@ -1,7 +1,42 @@
 # Curated list of great Scala oriented (but not always) Functional Programming resources
 
-## Talks
+## Categories
 
+* [Talks](#talks)
+    * [FP in general](#fp-in-general)
+    * [Types](#types)
+    * [Effects](#effects)
+    * [State](#state)
+    * [Semigroup / Monoid](#semigroup-monoid)
+    * [Free monad / Tagless Final and monad stacks](#freemonad-taglessfinal-monadstacks)
+    * [Typeclass](#typeclass)
+    * [Concurrency](#concurrency)
+    * [Optics](#optics)
+    * [Recursion Schemes](#recursion-schemes)
+    * [Theory](#theory)
+
+* [Articles](#articles)
+
+* [Academic papers](#academic-papers)
+
+* [Blogs](#blogs)
+
+* [Books](#books)
+
+* [Chat rooms](#chat-rooms)
+
+* [Newsletters](#newsletters)
+
+* [Podcasts](#podcasts)
+
+* [Repositories](#repositories)
+
+* [To do](#todo)
+
+<a name="talks"></a>
+## Talks 
+
+<a name="fp-in-general"></a>
 ### FP in general
 
 - [Functional Programming is Terrible - Rúnar Bjarnason](https://www.youtube.com/watch?v=hzf3hTUKk8U)
@@ -22,13 +57,15 @@
 - [What Referential Transparency can do for you - Luka Jacobowitz](https://www.youtube.com/watch?v=X-cEGEJMx_4&feature=youtu.be&t=228)    
 
 - [Anatomy of functional programming](http://geekocephale.com/blog/2018/10/08/fp)
-    
+
+<a name="types"></a>
 ### Types
 
 - [Why do Functional Programmers always talk about Algebra(s)?](https://www.youtube.com/watch?v=s2ay9nEW3ak)
 
 - [Type Members vs Type Parameters](https://www.youtube.com/watch?v=R8GksuRw3VI)
 
+<a name="effects"></a>
 ### Effects
 
 - [Functional Programming with Effects - Rob Norris](https://www.youtube.com/watch?v=po3wmq4S15A)
@@ -43,14 +80,18 @@
 - [Declarative Control Flow with fs2 Stream – Fabio Labella](https://www.youtube.com/watch?v=YSN__0VEsaw)
     - Stream, IO
 
+<a name="state"></a>
 ### State
 
 - [Regaining Control with State Monad and Friends](https://www.youtube.com/watch?v=Pgo73GfHk0U)
     - State, StateT, IndexedState
+
+<a name="semigroup-monoid"></a>
 ### Semigroup / Monoid
 
 - [Anatomy of semigroups and monoids](http://geekocephale.com/blog/2018/11/06/semi-monoid)
 
+<a name="freemonad-taglessfinal-monadstacks"></a>
 ### Free Monad / Tagless final and monad stacks
 
 - [Free monad or tagless final? How not to commit to a monad too early - Adam Warski](https://www.youtube.com/watch?v=IhVdU4Xiz2U)
@@ -86,6 +127,7 @@
 - [A Year living Freely – Chris Myers](https://www.youtube.com/watch?v=rK53C-xyPWw)
     - Free monad
 
+<a name="typeclass"></a>
 ### Typeclass
 
 - [Mastering Typeclass Induction — Aaron Levin](https://www.youtube.com/watch?v=Nm4OIhjjA2o)
@@ -96,15 +138,18 @@
     
 - [Type class, ultimate ad hoc](https://www.youtube.com/watch?v=2EdQFCP5mZ8)    
 
+<a name="concurrency"></a>
 ### Concurrency
 
 - [Concurrency with Cats-effect - Michael Pilquist](https://www.youtube.com/watch?v=Gig-f_HXvLI)
 
+<a name="optics"></a>
 ### Optics
 
 - [Beyond Scala Lenses — Julien Truffaut](https://www.youtube.com/watch?v=6nyGVgGEKdA)
     - Optics
 
+<a name="recursion-schemes"></a>
 ### Recursion schemes
 
 - [Pure Functional Database Programming with Fixpoint Types — Rob Norris](https://www.youtube.com/watch?v=7xSfLPD6tiQ)
@@ -117,6 +162,7 @@
 
 - [Going bananas with recursion schemes for fixed point data types - Paweł Szulc](https://www.youtube.com/watch?v=IlvJnkWH6CA)
 
+<a name="theory"></a>
 ### Theory
 
 - [Crash course into category theory - Rúnar Bjarnason](https://www.youtube.com/watch?time_continue=2&v=ml5rU06z0Fk)
@@ -136,6 +182,7 @@
 
 - [A History of Computation, Logic and Algebra](https://www.youtube.com/watch?v=c_nPnURW6BU)
 
+<a name="articles"></a>
 ## Articles
 
 - [Anatomy of an algebra](http://geekocephale.com/blog/2018/10/06/algebras)
@@ -192,6 +239,7 @@
 
 - [Category theory and programming](http://yogsototh.github.io/Category-Theory-Presentation/categories.html)
 
+<a name="academic-papers"></a>
 ## Academic papers
 
 - [The morning papers](https://blog.acolyer.org/)
@@ -208,6 +256,7 @@
 
 - [Typed tagless-final interpretations: Lecture notes](http://okmij.org/ftp/tagless-final/course/index.html)
 
+<a name="blogs"></a>
 ## Blogs
 
 - [Typelevel](https://typelevel.org/blog/)
@@ -230,6 +279,7 @@
  
 - [Mine ! :D](https://github.com/mmenestret/fp-ressources/)
 
+<a name="books"></a>
 ## Books
 
 - [Functional Programming in Scala](https://www.manning.com/books/functional-programming-in-scala)
@@ -244,6 +294,7 @@
 
 - [A History of Computation, Logic and Algebra](https://pron.github.io/computation-logic-algebra)
 
+<a name="chat-rooms"></a>
 ## Chat rooms
 
 - [Scala FR gitter](https://gitter.im/scala/fr)
@@ -252,18 +303,21 @@
 
 - [Functional programming Slack](https://functionalprogramming.slack.com/messages/C0436F0PY/)
 
+<a name="newsletters"></a>
 ## Newsletters
 
 - [Scalatimes](https://scalatimes.com/)
 
 - [Awesome Scala](https://scala.libhunt.com/newsletter)
 
+<a name="podcasts"></a>
 ## Podcasts
 
 - [Functional Geekery](https://www.functionalgeekery.com/)
 
 - [Co-recursive](https://corecursive.com/category/podcast/) (never tried yet)
 
+<a name="repositories"></a>
 ## Repositories
 
 - [Scala pet store](https://github.com/pauljamescleary/scala-pet-store)
@@ -272,7 +326,7 @@
 - [Befunge-93](https://github.com/SystemFw/Befunge-93)
   - Tagless Final
 
-
+<a name="todo"></a>
 ## To do... (stuff to read / watch)
 
 - [A History of Computation, Logic and Algebra](https://pron.github.io/computation-logic-algebra)
